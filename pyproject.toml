@@ -1,0 +1,43 @@
+[project]
+name = "richreports"
+version = "0.1.0"
+description = """\
+    Library that supports the construction of human-readable, interactive \
+    static analysis reports that consist of decorated concrete syntax \
+    representations of programs.\
+    """
+license = {text = "MIT"}
+authors = [
+    {name = "Andrei Lapets"},
+    {email = "a@lapets.io"}
+]
+readme = "README.rst"
+requires-python = ">=3.7"
+
+[project.urls]
+Repository = "https://github.com/reity/richreports-py"
+
+[project.optional-dependencies]
+test = [
+    "pytest~=7.4",
+    "pytest-cov~=4.0"
+]
+lint = [
+    "pylint~=2.17"
+]
+coveralls = [
+    "coveralls~=3.3.1"
+]
+publish = [
+    "build~=0.10",
+    "twine~=4.0"
+]
+
+[build-system]
+requires = [
+    "setuptools>=68.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --cov=richreports --cov-report term-missing"
