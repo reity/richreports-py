@@ -40,7 +40,7 @@ Examples
 ^^^^^^^^
 
 .. |report| replace:: ``report``
-.. _report: https://richreports.readthedocs.io/en/0.1.0/_source/richreports.html#richreports.richreports.report
+.. _report: https://richreports.readthedocs.io/en/0.2.0/_source/richreports.html#richreports.richreports.report
 
 This library supports the enrichment of concrete syntax strings with delimiters. A |report|_ instance can be created from a concrete string and then enriched:
 

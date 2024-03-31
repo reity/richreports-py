@@ -1,6 +1,6 @@
 [project]
 name = "richreports"
-version = "0.1.0"
+version = "0.2.0"
 description = """\
     Library that supports the construction of human-readable, interactive \
     static analysis reports that consist of decorated concrete syntax \
